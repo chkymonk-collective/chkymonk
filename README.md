@@ -1,34 +1,35 @@
-# Chkymonk Collective
+# Chkymonk Collective 🚀
 
-Autonomous content pipeline, trend monitoring, and media production platform.
+Autonomous content pipeline — trend detection → creation → deployment.
 
-## What We Build
-
-- **Content Pipeline** — End-to-end trend detection → content creation → deployment
-- **Trend Bots** — TikTok/X trend monitoring with AI-powered analysis
-- **Movie Suite** — n8n-orchestrated video production pipeline
-- **Researcher** — Automated web research and strategy extraction
-- **3D Rendering** — Blender + ComfyUI pipeline (CPU/GPU)
+Chkymonk is an AI-powered media production platform. We build tools that find trending content ideas, generate scripts, create visual assets, and deploy them — all orchestrated through n8n and Hermes Agent.
 
 ## Architecture
 
 ```
-Trend Bots → Researcher → Content Drafting → Movie Suite → Deploy
-    ↑                             ↓
-  n8n (orchestrator)       ComfyUI / Blender (render)
-    ↑
-Hermes Agent (brain)
+TREND BOTS → RESEARCHER → CONTENT GEN → DEPLOYMENT
+(TikTok/X)  (AI analysis)  (ComfyUI/Blender)  (Staging/YouTube)
 ```
 
 ## Tech Stack
 
-- **Orchestration:** n8n
-- **Agent:** Hermes Agent
-- **Rendering:** ComfyUI, Blender
-- **Monitoring:** TikTok/X APIs, Firecrawl
-- **Infrastructure:** Docker, Ubuntu VPS
-- **Messaging:** Telegram, Discord, Mattermost
+| Component | Tool |
+|-----------|------|
+| Orchestration | n8n |
+| Agent Brain | Hermes Agent |
+| AI Video | ComfyUI |
+| 3D Rendering | Blender |
+| Trend Monitoring | TikTok/X APIs, Firecrawl |
+| Research | YouTube API, Gemini AI |
+| Infrastructure | Docker |
+
+## Status
+
+- Trending: Reactivating
+- Pipeline: Active
+- Rendering: ComfyUI + Blender (CPU)
+- Channels: Telegram, Discord, Mattermost
 
 ---
 
-*Building the autonomous content factory.*
+Building the autonomous content factory.
